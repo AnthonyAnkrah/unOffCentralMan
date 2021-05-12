@@ -43,7 +43,7 @@ To use the CLI Client, you can use the checklist below.
     - Type `python -m pip install -r requirements.txt`
     - If you have multiple instances of python installed on your device:
         * Replace `python` in the command above with your preferred python3 instance. **eg** `python3.8 -m pip install -r requirements.txt`
-3. Edit the **creds.py** file with the required details. An example is shown below:
+3. Copy **creds.example.py** to **creds.py** and edit file with the required details. An example is shown below:
 ```
 logEmail = "sample@email.com"
 logPass = "sampleSuperStrongPassword"
