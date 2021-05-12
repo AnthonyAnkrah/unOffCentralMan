@@ -40,9 +40,9 @@ To use the CLI Client, you can use the checklist below.
     - If you saw anything other than `Python 3.x.x` displayed after following the most relevant instruction above, then goto the [Python Website](https://www.python.org/downloads/) and get it installed.
 2. Install the required packages
     - Launch Command Prompt or Terminal (*see point 1*)
-    - Type `python -m pip install requests pprint colorama stdiomask json5 tabulate`
+    - Type `python -m pip install -r requirements.txt`
     - If you have multiple instances of python installed on your device:
-        * Replace `python` in the command above with your preferred python3 instance. **eg** `pyhton3.8 -m pip install requests pprint colorama stdiomask json5 tabulate`
+        * Replace `python` in the command above with your preferred python3 instance. **eg** `python3.8 -m pip install -r requirements.txt`
 3. Edit the **creds.py** file with the required details. An example is shown below:
 ```
 logEmail = "sample@email.com"
